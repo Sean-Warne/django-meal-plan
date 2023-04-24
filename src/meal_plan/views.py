@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def home(request):
+    return render(request, 'meal_plan/home.html', context={})
